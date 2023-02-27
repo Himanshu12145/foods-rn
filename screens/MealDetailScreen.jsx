@@ -5,7 +5,6 @@ import MealDetails from "../components/MealDetails";
 import Subtitle from "../components/MealDetail/Subtitle";
 import List from "../components/MealDetail/List";
 import IconButton from "../components/IconButton";
-import { FavoriteContext } from "../store/context/favorites-context";
 const MealDetailScreen = ({ route, navigation }) => {
   // const favoriteMealContext = useContext(FavoriteContext);
   // const mealIsFavorite = favoriteMealContext.ids.includes(mealId);
